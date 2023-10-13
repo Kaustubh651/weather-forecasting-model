@@ -12,7 +12,7 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 # Sunny Day:
 ![Predictor Values for Sunny Day](githubimgs/predictor1.png)
 
-# Tech Stack
+# Tech Stack (Developing Stage )
 * Front-End: HTML, CSS, Bootstrap
 * Back-End: Flask
 * IDE: Jupyter notebook, Pycharm
@@ -27,7 +27,7 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 * Now for the final step. Run the app
 * python app.py
 
-# Some screenshots of the app
+# Some screenshots of the app (Developing Stage)
 * Landing Page:
 ![Landing Page](githubimgs/landingpage.png)
 * About Rainy Brain:
@@ -44,7 +44,9 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 # Workflow
 
 # Data Collection: 
-[Rainfall Prediction in Australia dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) from Kaggle
+[Rainfall Prediction in dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) from Kaggle
+Model Creation is Done 
+* Finding the dataset of Brazil (continuation)
 # Data Preprocessing: 
 * Missing Values Handled by Random Sample imputation to maintain the variance
 * Categorical Values like location, wind direction are handled by using Target guided encoding
@@ -56,11 +58,10 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 * Different types of models were tried like catboost, random forest, logistic regression, xgboost, support vector machines, knn, naive bayes.
 * Out of these catboost, random forest and support vector machines were top 3
 * The conclusion were made using classification metrics. roc curve and auc score
-# Model Deployment
-* The model is deployed using Flask at Heroku server at the [link](https://rainy-brain.herokuapp.com/)
 
-# If you like this project please do give a star. I am also giving my LinkedIn profile. If you want we can connect there too
-[https://www.linkedin.com/in/vasanth-p-90826218b/](https://www.linkedin.com/in/vasanth-p-90826218b/)
+# Model Deployment (In developing stage)
+* The model will be  deployed using Flask at Heroku server 
+
 
 
 
